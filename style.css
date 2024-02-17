@@ -1,5 +1,5 @@
 header {
-    background-color: #3A6B3D;
+    background-color: black;
     padding: 15px;
     margin: -8px;
     display: flex;
@@ -9,10 +9,6 @@ header {
 
 body {
     background-color: #6FC376;
-}
-
-h1 {
-    color: #008080
 }
 
 #headerlink {
