@@ -1,0 +1,47 @@
+header {
+    background-color: #3A6B3D;
+    padding: 15px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #99EFA0;
+}
+
+body {
+    background-color: #6FC376;
+}
+
+h1 {
+    color: #008080
+}
+
+#headerlink {
+    color: white;
+    font-family: "Rubik";
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#activeheader {
+    color: white;
+    font-family: "Rubik";
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #48834C;
+    border-radius: 10px;
+}
+
+#tatmage {
+    margin-right: 20px;
+    margin-left: 10px;
+}
