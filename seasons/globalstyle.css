@@ -2,6 +2,10 @@
     font-family: "Rubik";
 }
 
+.material-symbols-outlined {
+    color: #2d4b3a;
+}
+
 header {
     background-color: transparent;
     backdrop-filter: blur(10px);
@@ -27,13 +31,13 @@ h1 {
 }
 
 #headerlink {
-    color: white;
-    font-weight: 400;
+    color: #2d4b3a;
+    font-weight: 600;
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
     font-size: 20px;
-    padding: 5px;
+    text-align: center;
 }
 
 #activeheader {
@@ -51,10 +55,11 @@ h1 {
 }
 
 #backarrow {
-    fill: white;
+    margin-right: 10px;
+    margin-left: 15px;
 }
 
-#tatglobal {
+#tatdd {
     width: 200px;
     margin-top: 20px;   
 }
@@ -68,7 +73,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    color: #3a614b;
+    color: #2d4b3a;
 }
 
 #conimage {
@@ -98,7 +103,7 @@ h1 {
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    background-color: #98f2c0;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     border-radius: 50px;
@@ -106,11 +111,14 @@ h1 {
     height: 70px;
     align-items: center;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    backdrop-filter: blur(10px);
+    filter: brightness(1.1);
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.2) inset;
 }
 
 #button:hover {
     transform: scale(1.03);
-    background-color: #bbffda;
+    filter: brightness(1.2);
 }
 
 #buttons {

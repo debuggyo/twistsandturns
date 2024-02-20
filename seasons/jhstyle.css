@@ -15,14 +15,15 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
+    mask: linear-gradient(0deg, transparent, black 50%);
 }
 
 body, html {
     background-color: #7AC39C;
-    background-image: url(../images/tatddbg.png);
-    background-position: right bottom;
+    background-image: url(../images/tatjhbg.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 

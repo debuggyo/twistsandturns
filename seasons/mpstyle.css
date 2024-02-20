@@ -3,7 +3,7 @@
 }
 
 .material-symbols-outlined {
-    color: #2d4b3a;
+    color: white;
 }
 
 header {
@@ -15,14 +15,15 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
+    mask: linear-gradient(0deg, transparent, black 50%);
 }
 
 body, html {
-    background-color: #7AC39C;
-    background-image: url(../images/tatddbg.png);
-    background-position: right bottom;
+    background-color: #EDB240;
+    background-image: url(../images/tatmpbg.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -31,7 +32,7 @@ h1 {
 }
 
 #headerlink {
-    color: #2d4b3a;
+    color: white;
     font-weight: 600;
     margin-left: 10px;
     margin-right: 10px;
@@ -73,7 +74,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    color: #2d4b3a;
+    color: black;
 }
 
 #conimage {
@@ -126,4 +127,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#shadow {
+    box-shadow: 0px, 0px, 1px, 5px, rgba(0, 0, 0, 1);
 }

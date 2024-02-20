@@ -71,6 +71,7 @@ body {
     flex-basis: 0;
     min-width: 40%;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.2) inset;
 }
 
 #tatdd:hover, #tatglobal:hover, #tatjh:hover, #tatmp:hover, #tatsa:hover, #tatss:hover {
@@ -102,6 +103,7 @@ body {
     flex-basis: 0;
     min-width: 40%;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.2) inset;
 }
 
 #tatjh {
@@ -123,6 +125,7 @@ body {
     flex-basis: 0;
     min-width: 40%;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.2) inset;
 }
 
 #tatmp {
@@ -144,6 +147,7 @@ body {
     flex-basis: 0;
     min-width: 40%;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.2) inset;
 }
 
 #tatsa {
@@ -165,6 +169,7 @@ body {
     flex-basis: 0;
     min-width: 40%;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.05) inset;
 }
 
 #tatss {
@@ -186,6 +191,7 @@ body {
     flex-basis: 0;
     min-width: 40%;
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.05) inset;
 }
 
 #seasons {
